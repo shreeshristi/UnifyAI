@@ -52,7 +52,7 @@ const Sidebar = ({ sidebar, setSidebar }) => {
               className={({ isActive }) =>
                 `px-3.5 py-2.5 flex items-center gap-3 rounded-lg transition-colors duration-200 ${
                   isActive
-                    ? 'bg-linear-to-r from-[#3C81F6] to-[#9234EA] text-white'
+                    ? 'bg-linear-to-r from-[#3C81F6] to-[#FB923C] text-white'
                     : 'hover:bg-gray-100 text-gray-700'
                 }`
               }
